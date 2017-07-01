@@ -3419,12 +3419,12 @@
 	}
 
 	#about #main > header {
-		background-image: url('../../meeting-at-table-focus-on-notepad-woman-prominent.jpg');
+		background-image: url('../../meeting-at-table-focus-on-notepad-woman-prominent-resized.jpg');
 		background-size: cover;
 	}
 
 	#presentations #main > header {
-		background-image: url('../../white-frame-with-black-board-and-idea-cloud-with-light-bulb.jpeg');
+		background-image: url('../../white-frame-with-black-board-and-idea-cloud-with-light-bulb-resized.jpg');
 		background-size: cover;
 	}	
 		#banner h2 {
@@ -3833,7 +3833,7 @@
 		background: none;
 	}
 
-	body.is-mobile.landing #banner,
+	
 	body.is-mobile.landing .wrapper.style4 {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
@@ -3844,6 +3844,13 @@
 		background-size: cover;
 	}
 
+	body.is-mobile.landing #banner {
+		background-image: url('../../arial-view-coffee-notebook-pen-phone-1080p.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}

@@ -3375,6 +3375,14 @@
 
 /* Banner */
 
+	#about #main header {
+		text-shadow: #000 1px 2px 3px;
+	}
+	
+	#presentations #main header {
+		text-shadow: #000 1px 2px 3px;
+	}
+	
 	#banner {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3410,6 +3418,15 @@
 		text-shadow: #000 1px 2px 3px;
 	}
 
+	#about #main > header {
+		background-image: url('../../meeting-at-table-focus-on-notepad-woman-prominent.jpg');
+		background-size: cover;
+	}
+
+	#presentations #main > header {
+		background-image: url('../../white-frame-with-black-board-and-idea-cloud-with-light-bulb.jpeg');
+		background-size: cover;
+	}	
 		#banner h2 {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
@@ -3656,7 +3673,9 @@
 
 		#main > header h2 {
 			font-size: 1.75em;
-			margin: 0 0 0.5em 0;
+			margin: 0 0 0em 0;
+			background: rgba(0,0,0,0.4);
+			padding: 0 0 0.5em 0;
 		}
 
 		#main > header p {
@@ -3664,6 +3683,8 @@
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
 			top: 0;
+			background: rgba(0,0,0,0.4);
+			padding: 0 0 0.5em 0;
 		}
 
 			#main > header p a {
